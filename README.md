@@ -2,6 +2,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+You'll need to have these environment variables:
+
+- SPOTIFY_CLIENT_ID - The Spotify client ID
+- SPOTIFY_CLIENT_SECRET - The Spotify client secret
+- OPENAI_API_KEY - Your OpenAI key
+
+Follow the [Getting Started](https://developer.spotify.com/documentation/web-api) on the Spotify site to create a new App with "web api" permissions to get the client ID and secret.
+
 First, run the development server:
 
 ```bash
